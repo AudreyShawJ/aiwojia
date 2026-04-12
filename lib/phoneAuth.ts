@@ -41,7 +41,15 @@ export function normalizeChinaPhone(raw: string): { e164: string; digits11: stri
   return null;
 }
 
+// Apple review test account: phone=13800000001, code=888888
+const TEST_PHONE = '13800000001';
+const TEST_CODE = '888888';
+const TEST_EMAIL = 'test_13800000001@aiwojia.internal';
+const TEST_PASSWORD = 'review_888888';
+
 export async function sendPhoneOtp(phoneInput: string): Promise<void> {
+  const digits = String(phoneInput).replace(/\D/g, '').replace(/^86/, '');
+  if (digits === TEST_PHONE) return; // test account, skip SMS
   await postFunction('send-phone-otp', { phone: phoneInput });
 }
 
@@ -50,11 +58,22 @@ export type VerifyPhoneOtpResult = { email: string };
 /**
  * 调用 verify-phone-otp 后用 Supabase Auth 建立本地会话（register_channel: sms 的用户为 synthetic email）。
  */
+
 export async function verifyPhoneOtpAndSignIn(
   client: SupabaseClient,
   phoneInput: string,
   code: string,
 ): Promise<VerifyPhoneOtpResult> {
+  const digits = String(phoneInput).replace(/\D/g, '').replace(/^86/, '');
+  if (digits === TEST_PHONE && code.trim() === TEST_CODE) {
+    const { error } = await client.auth.signInWithPassword({
+      email: TEST_EMAIL,
+      password: TEST_PASSWORD,
+    });
+    if (error) throw new Error('测试账号登录失败');
+    return { email: TEST_EMAIL };
+  }
+
   const json = await postFunction('verify-phone-otp', { phone: phoneInput, code });
   const access_token = typeof json.access_token === 'string' ? json.access_token : '';
   const refresh_token = typeof json.refresh_token === 'string' ? json.refresh_token : '';
