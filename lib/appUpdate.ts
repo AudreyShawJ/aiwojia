@@ -2,18 +2,20 @@
  * APP 更新检查 + 下载安装（Android Only）
  *
  * 流程：
- * 1. 从 Supabase app_versions 表查最新版本
- * 2. 与本地 Constants.expoConfig.version 比较
+ * 1. 调蒲公英 check API 查最新版本
+ * 2. 与本地 versionCode 比较
  * 3. 有新版本时返回版本信息，由调用方展示弹窗
- * 4. 用户确认后，用 expo-file-system 下载 APK 到本地
+ * 4. 用 expo-file-system 下载 APK 到本地
  * 5. 调 expo-intent-launcher 触发系统安装器
  */
 
 import * as FileSystem from 'expo-file-system/legacy';
 import * as IntentLauncher from 'expo-intent-launcher';
-import Constants from 'expo-constants';
+import * as Application from 'expo-application';
 import { Platform } from 'react-native';
-import { supabase } from './supabase';
+
+const PGYER_API_KEY = '25ef98e486a8caf85a75f2aebb6709d0';
+const PGYER_APP_KEY = '886d79ee0d07eeb05f413167679b6f25';
 
 export type AppVersionRow = {
   version_name: string;
@@ -23,12 +25,6 @@ export type AppVersionRow = {
   force_update: boolean;
 };
 
-/** 把 "1.2.3" 转成整数 10203 方便比较（支持最多 3 段） */
-function versionNameToCode(v: string): number {
-  const parts = v.split('.').map(Number);
-  return (parts[0] ?? 0) * 10000 + (parts[1] ?? 0) * 100 + (parts[2] ?? 0);
-}
-
 /**
  * 检查是否有新版本。
  * 返回新版本信息，或 null（无更新 / 非 Android / 出错）
@@ -37,23 +33,29 @@ export async function checkForUpdate(): Promise<AppVersionRow | null> {
   if (Platform.OS !== 'android') return null;
 
   try {
-    const { data, error } = await supabase
-      .from('app_versions')
-      .select('version_name, version_code, download_url, release_notes, force_update')
-      .eq('platform', 'android')
-      .order('version_code', { ascending: false })
-      .limit(1)
-      .maybeSingle();
+    const localVersionCode = parseInt(Application.nativeBuildVersion ?? '1', 10);
 
-    if (error || !data) return null;
+    const res = await fetch(
+      `https://www.pgyer.com/apiv2/app/check?_api_key=${PGYER_API_KEY}&appKey=${PGYER_APP_KEY}&buildVersion=${localVersionCode}`,
+      { method: 'GET' }
+    );
+    const json = await res.json();
 
-    const localVersionName = Constants.expoConfig?.version ?? '1.0.0';
-    const localCode = versionNameToCode(localVersionName);
-    const remoteCode = data.version_code;
+    // code=1247: 已是最新版本
+    if (!json || json.code === 1247 || json.code !== 0) return null;
 
-    if (remoteCode <= localCode) return null;
+    const data = json.data;
+    const remoteVersionCode = parseInt(data.buildBuildVersion ?? '0', 10);
 
-    return data as AppVersionRow;
+    if (remoteVersionCode <= localVersionCode) return null;
+
+    return {
+      version_name: data.buildVersion ?? '',
+      version_code: remoteVersionCode,
+      download_url: data.downloadURL ?? '',
+      release_notes: data.buildUpdateDescription ?? '',
+      force_update: false,
+    };
   } catch {
     return null;
   }
@@ -75,7 +77,6 @@ export async function downloadAndInstallApk(
 ): Promise<void> {
   const destUri = FileSystem.cacheDirectory + 'update.apk';
 
-  // 删除旧的临时包（如有）
   try {
     await FileSystem.deleteAsync(destUri, { idempotent: true });
   } catch {}
@@ -96,12 +97,11 @@ export async function downloadAndInstallApk(
   const result = await downloadResumable.downloadAsync();
   if (!result?.uri) throw new Error('APK 下载失败');
 
-  // 获取 content URI（Android 7+ 需要通过 FileProvider）
   const contentUri = await FileSystem.getContentUriAsync(result.uri);
 
   await IntentLauncher.startActivityAsync('android.intent.action.VIEW', {
     data: contentUri,
-    flags: 1,          // FLAG_GRANT_READ_URI_PERMISSION
+    flags: 1,
     type: 'application/vnd.android.package-archive',
   });
 }
