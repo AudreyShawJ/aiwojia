@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ofd:Signature xmlns:ofd="http://www.ofdspec.org/2016">
+    <ofd:SignedInfo>
+        <ofd:Provider ProviderName="AISINO" Version="1.0" Company="AISINO"/>
+        <ofd:SignatureMethod>1.2.156.10197.1.501</ofd:SignatureMethod>
+        <ofd:SignatureDateTime>20260408170111Z</ofd:SignatureDateTime>
+        <ofd:References CheckMethod="1.2.156.10197.1.401">
+            <ofd:Reference FileRef="/Doc_0/Tpls/Tpl_0/Content.xml">
+                <ofd:CheckValue>jHx+XjX84ME398vxTB3glKFX1yrZa95Z0WdHFBYG8lQ=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Res/image_77.jpg">
+                <ofd:CheckValue>e8p/QB9uAbXnYcZo1wdPrpfj4T+6PgZqlY/VB0Ec9qE=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Attachs/Attachments.xml">
+                <ofd:CheckValue>B9VdwC0+8wQEGkvuEb4I7KUa8pZiMUgSORh00/j+TYY=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/DocumentRes.xml">
+                <ofd:CheckValue>Ii8ostSPlsPMF8jBneeilYbw3BBrl33U6KDaPe4hV3k=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Annots/Page_0/Annotation.xml">
+                <ofd:CheckValue>a/x8o+TO5lrZl5AzxB4iZ3a4nbcPJKnLnrdgzFc0Hhw=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Document.xml">
+                <ofd:CheckValue>wfbVgsBiwMCh4q9E+Yt5etLVDiKoYYhmuDvkiVSK+WQ=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/OFD.xml">
+                <ofd:CheckValue>nTrxP3caRp9bjNizmlIyYQas29BBm3M+D3VaFcv7jNw=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/PublicRes.xml">
+                <ofd:CheckValue>VEZvl4o8R3I+Zyyo8IACXuVsQwwXIk32yZuv0Kbs0lQ=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Res/image_77_SHUI.jpg">
+                <ofd:CheckValue>XeQlv7RuT1OzORwrKoCh29Bnr8+rPkdZuAojC5MLMDk=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Res/signature_sichuan.png">
+                <ofd:CheckValue>udWdUtK0Fg/8qVkcgIX7MDlI/I4bHiUaPbbSbeeTVoY=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Pages/Page_0/Content.xml">
+                <ofd:CheckValue>Exn6aRPWZEQclZY+lJkSSaOq4BqpyKSTPF7OS6nvzyE=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Attachs/atr_issuer_20260408_26518811111022658245.xml">
+                <ofd:CheckValue>0QJSEVLVt82TIse82AlI46cjgvVJUWeIRq+JOjaS2VY=</ofd:CheckValue>
+            </ofd:Reference>
+            <ofd:Reference FileRef="/Doc_0/Annots/Annotations.xml">
+                <ofd:CheckValue>OAMmvBPY52qGt71xZ+ymZIlofL3rKFIlCwBP+rWndIE=</ofd:CheckValue>
+            </ofd:Reference>
+        </ofd:References>
+        <ofd:StampAnnot PageRef="6003" ID="2" Boundary="4.5 104 115 20"/>
+    </ofd:SignedInfo>
+    <ofd:SignedValue>/Doc_0/Signs/Sign_0/SignedValue.dat</ofd:SignedValue>
+</ofd:Signature>

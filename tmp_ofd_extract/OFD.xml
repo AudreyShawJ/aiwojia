@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ofd:OFD Version="1.1" DocType="OFD" xmlns:ofd="http://www.ofdspec.org/2016">
+    <ofd:DocBody>
+        <ofd:DocInfo>
+            <ofd:DocID>689fdabc982b4741a3ccaf5ee8195dcf</ofd:DocID>
+            <ofd:Author>China Tax</ofd:Author>
+            <ofd:CreationDate>2026-04-08</ofd:CreationDate>
+            <ofd:ModDate>2026-04-08</ofd:ModDate>
+        </ofd:DocInfo>
+        <ofd:DocRoot>/Doc_0/Document.xml</ofd:DocRoot>
+        <ofd:Signatures>/Doc_0/Signs/Signatures.xml</ofd:Signatures>
+    </ofd:DocBody>
+</ofd:OFD>

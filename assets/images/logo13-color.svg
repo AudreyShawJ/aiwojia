@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="logo13SplashGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A6CFF"/>
+      <stop offset="100%" stop-color="#7B8AFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M 25 48 Q 50 25, 75 48" stroke="url(#logo13SplashGrad)" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M 35 50 Q 50 46, 65 50 L 65 70 Q 50 73, 35 70 Z" stroke="#5A6CFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 35 60 Q 50 58.5, 65 60" stroke="#5A6CFF" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <line x1="50" y1="46" x2="50" y2="73" stroke="#5A6CFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 28 73 Q 50 76, 72 73" stroke="url(#logo13SplashGrad)" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="50" cy="30" r="2.5" fill="#7B8AFF" opacity="0.5"/>
+</svg>

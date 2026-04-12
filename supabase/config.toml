@@ -1,0 +1,10 @@
+# 短信登录：未登录用户需匿名调用（仍须携带 anon key，由业务层与阿里云费用控制）
+[functions.send-phone-otp]
+verify_jwt = false
+
+[functions.verify-phone-otp]
+verify_jwt = false
+
+# 语音识别：已登录用户调用，需携带 JWT
+[functions.aliyun-asr]
+verify_jwt = false

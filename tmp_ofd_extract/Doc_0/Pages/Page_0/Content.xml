@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ofd:Page xmlns:ofd="http://www.ofdspec.org/2016">
+    <ofd:Area>
+        <ofd:PhysicalBox>0 0 230 133.5</ofd:PhysicalBox>
+    </ofd:Area>
+    <ofd:Template TemplateID="1" ZOrder="Background"/>
+    <ofd:Content>
+        <ofd:Layer Type="Body">
+            <ofd:ImageObject ID="999" CTM="12 0 0 12 0 0" Boundary="150 20 12 12" ResourceID="5500"/>
+            <ofd:ImageObject ID="999ewm" CTM="2.56 0 0 2.56 0 0" Boundary="154.72 24.72 2.56 2.56" ResourceID="55001"/>
+            <ofd:ImageObject ID="998" CTM="30 0 0 20 0 0" Boundary="94 9.5 30 21" ResourceID="5508"/>
+            <ofd:TextObject ID="1032" Boundary="35.1 19.5 34 4" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="3.07625" DeltaX="2.9980 2.9980">国内</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1035" Boundary="16 20 19.4 3.5" Font="5" Size="3.00">
+                <ofd:FillColor Value="156 74 9"/>
+                <ofd:TextCode X="0.5" Y="2.3" DeltaX="2.62 2.62 2.62 2.62 2.62 2.62">国内国际标识：</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1032" Boundary="177.5 19.5 36 4" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="3.07625" DeltaX="2.9980 2.9980">正常</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1014" Boundary="177 27.4 36 4" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="3.07625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">26518811111022658245</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1011" Boundary="16.3 35.1 47 8" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.07625" DeltaX="2.9980 2.9980 2.9980">夏萍萍</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1012" Boundary="64.5 35.1 62 8" Font="7" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.07625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">330103********1027</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1013" Boundary="128.5 35.1 84 8" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.07625" DeltaX="2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980">按照航空公司客规执行</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="58.5 86 21 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="6.0100" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">CNY 917.43</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="80.5 86 21.6 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="8.1090" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">CNY 18.35</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="103 86 15 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="12.0020" Y="4.32625" DeltaX="1.4990 1.4990">9%</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="118.5 86 21 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="7.5090" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">CNY 84.22</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="140.5 86 21 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="7.5090" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">CNY 50.00</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="162.5 86 21 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="9.0080" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">CNY 0.00</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1015" Boundary="184.5 86 28 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="11.5110" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">CNY 1070.00</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1022" Boundary="34 92 40 8.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">8112364254230</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1023" Boundary="83.6 92 15.5 8.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.32625" DeltaX="1.4990 1.4990 1.4990 1.4990">8245</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1025" Boundary="194.3 92 18.5 8.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.32625" DeltaX="1.4990 1.4990 1.4990 1.4990">0.00</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1026" Boundary="34 100.35 40 8.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">UEA015/08657888</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1027" Boundary="86.1 100.35 95.5 8.5" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.32625" DeltaX="2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980">成都航空呼叫中心（新）</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1030" Boundary="193.6 100.35 19 8.5" Font="6" Size="2.6452">
+                <ofd:TextCode X="0" Y="5.19965" DeltaX="1.3226 1.3226 1.3226 1.3226 2.6452 1.3226 1.3226 2.6452 1.3226 1.3226 2.6452">2026年04月08日</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1038" Boundary="31 110 87 6.5" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="4.32625" DeltaX="2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980 2.9980">北京中科美泊科技有限公司</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1039" Boundary="158 110 54 6.5" Font="7" Size="2.9980">
+                <ofd:TextCode X="0" Y="4.32625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">91110105MA01AHA531</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1000" Boundary="20 51.3 38 8.4" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.27625" DeltaX="2.9980 2.9980 1.4990 2.9980 2.9980">海口 美兰</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1001" Boundary="58.5 51.3 12.5 8.4" Font="6" Size="2.9980">
+                <ofd:TextCode X="3.25200" Y="5.27625" DeltaX="2.9980 2.9980">成航</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1002" Boundary="71.3 51.3 14.1 8.4" Font="7" Size="2.9980">
+                <ofd:TextCode X="2.55300" Y="5.27625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990 1.4990">EU2263</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1003" Boundary="86.31 51.3 11 8.4" Font="7" Size="2.9980">
+                <ofd:TextCode X="4.75050" Y="5.27625" DeltaX="1.4990">E</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1004" Boundary="97.9 51.3 14.8 8.4" Font="6" Size="1.9399">
+                <ofd:TextCode X="0.61055" Y="4.89640" DeltaX=".9699 .9699 .9699 .9699 1.9399 .9699 .9699 1.9399 .9699 .9699 1.9399">2026年03月19日</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1005" Boundary="113.3 51.3 13.4 8.4" Font="7" Size="2.9980">
+                <ofd:TextCode X="2.95250" Y="5.27625" DeltaX="1.4990 1.4990 1.4990 1.4990 1.4990">16:05</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1006" Boundary="127.6 51.3 39.5 8.4" Font="7" Size="2.9980">
+                <ofd:TextCode X="17.50150" Y="5.27625" DeltaX="1.4990 1.4990 1.4990">E4C</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1009" Boundary="201 51.3 12 8.4" Font="7" Size="2.9980">
+                <ofd:TextCode X="3.75150" Y="5.27625" DeltaX="1.4990 1.4990 1.4990">20K</ofd:TextCode>
+            </ofd:TextObject>
+            <ofd:TextObject ID="1000" Boundary="20 59.7 38 8.4" Font="6" Size="2.9980">
+                <ofd:TextCode X="0" Y="5.27625" DeltaX="2.9980 2.9980 1.4990 2.9980 2.9980">杭州 萧山</ofd:TextCode>
+            </ofd:TextObject>
+        </ofd:Layer>
+    </ofd:Content>
+</ofd:Page>

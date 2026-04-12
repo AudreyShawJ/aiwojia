@@ -1,25 +1,38 @@
 {
   "expo": {
-    "name": "aiwojia",
+    "name": "家厘",
     "slug": "aiwojia",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "aiwojia",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.audreyshaw01.aiwojia",
+      "infoPlist": {
+        "CFBundleDevelopmentRegion": "zh-Hans",
+        "CFBundleAllowMixedLocalizations": true,
+        "NSPasteboardUsageDescription": "用于将复制的内容粘贴到聊天输入框。"
+      }
     },
     "android": {
+      "versionCode": 2,
+      "softwareKeyboardLayoutMode": "resize",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#F6F7F9",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.audreyshaw01.aiwojia",
+      "intentFilters": [],
+      "permissions": [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "output": "static",
@@ -33,16 +46,58 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#F6F7F9",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#151718"
+          }
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "验证身份后，才能查看受保护的家庭资料。"
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "允许 $(PRODUCT_NAME) 使用麦克风进行语音输入。",
+          "speechRecognitionPermission": "允许 $(PRODUCT_NAME) 识别您的语音内容。",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox",
+            "com.google.android.tts",
+            "com.google.android.as",
+            "com.samsung.android.bixby.agent",
+            "com.miui.voiceassist",
+            "com.xiaomi.mibrain.speech",
+            "com.huawei.vassistant",
+            "com.hihonor.speechassist",
+            "com.coloros.speech",
+            "com.oplus.speechassist"
+          ]
+        }
+      ],
+      "./plugins/withAndroidRecognitionServiceQueries.js",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "ios": ["zh-Hans", "zh-Hant", "en"]
           }
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
+      "reactCompiler": false
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9aafe699-4a90-4e72-95bf-168276af391d"
+      }
     }
   }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ofd:Res xmlns:ofd="http://www.ofdspec.org/2016" BaseLoc="Res">
+    <ofd:DrawParams>
+        <ofd:DrawParam ID="1" LineWidth="0.25">
+            <ofd:StrokeColor Value="0 0 0"/>
+        </ofd:DrawParam>
+        <ofd:DrawParam ID="2" Relative="3">
+            <ofd:FillColor Value="0 0 0"/>
+        </ofd:DrawParam>
+        <ofd:DrawParam ID="3" LineWidth="0.25">
+            <ofd:StrokeColor Value="156 74 9"/>
+        </ofd:DrawParam>
+        <ofd:DrawParam ID="4" Relative="3">
+            <ofd:FillColor Value="156 74 9"/>
+        </ofd:DrawParam>
+    </ofd:DrawParams>
+    <ofd:Fonts>
+        <ofd:Font ID="5" FontName="楷体" FamilyName="楷体"/>
+        <ofd:Font ID="6" FontName="宋体"/>
+        <ofd:Font ID="7" FontName="Courier New"/>
+        <ofd:Font ID="8" FontName="黑体"/>
+		<ofd:Font ID="9" FontName="Times New Roman"/>
+    </ofd:Fonts>
+</ofd:Res>
+

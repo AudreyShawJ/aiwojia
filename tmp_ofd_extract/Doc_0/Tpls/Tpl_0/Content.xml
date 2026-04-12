@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofd:Page xmlns:ofd="http://www.ofdspec.org/2016">
+	<ofd:Content>
+		<ofd:Layer ID="6" DrawParam="1">
+			<!--横线-->
+			<ofd:PathObject ID="7" Boundary="15.1 32.5 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="8" Boundary="15.1 43 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="9" Boundary="15.1 49.5 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="10" Boundary="58.5 83.5 154.9 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 154.9 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="11" Boundary="15.1 92 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="12" Boundary="15.1 100.5 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="13" Boundary="15.1 109 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="14" Boundary="15.1 117.5 198.2 0.4">
+				<ofd:AbbreviatedData>M 0 0.2 L 198.2 0.2</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--外框竖线-->
+			<ofd:PathObject ID="14" Boundary="15 32.6 0.4 85">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 85</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<ofd:PathObject ID="15" Boundary="213.2 32.6 0.4 85">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 85</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--框内竖线从左至右-->
+			<!--承运人-->
+			<ofd:PathObject ID="16" Boundary="58.4 43.1 0.4 49">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 49</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--有效身份证件号码-->
+			<ofd:PathObject ID="17" Boundary="63.4 32.6 0.4 10.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 10.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--航班号-->
+			<ofd:PathObject ID="17" Boundary="71.1 43.1 0.4 40.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 40.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--燃油附加费-->
+			<ofd:PathObject ID="18" Boundary="80.4 83.6 0.4 8.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 8.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--座位等级-->
+			<ofd:PathObject ID="19" Boundary="85.9 43.1 0.4 40.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 40.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--日期-->
+			<ofd:PathObject ID="20" Boundary="97.6 43.1 0.4 40.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 40.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--增值税税率-->
+			<ofd:PathObject ID="17" Boundary="102.4 83.6 0.4 8.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 8.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--时间-->
+			<ofd:PathObject ID="21" Boundary="113 43.1 0.4 40.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 40.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--增值税税额-->
+			<ofd:PathObject ID="17" Boundary="118.1 83.6 0.4 8.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 8.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--签注-->
+			<ofd:PathObject ID="22" Boundary="127 32.6 0.4 51">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 51</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--民航发展基金-->
+			<ofd:PathObject ID="17" Boundary="140.1 83.6 0.4 8.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 8.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--其他税费-->
+			<ofd:PathObject ID="17" Boundary="162.1 83.6 0.4 8.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 8.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--客票生效日期-->
+			<ofd:PathObject ID="24" Boundary="167.6 43.1 0.4 40.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 40.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--有效截止日期-->
+			<ofd:PathObject ID="25" Boundary="184.1 43.1 0.4 57.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 57.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+			<!--免费行李-->
+			<ofd:PathObject ID="26" Boundary="200.6 43.1 0.4 40.5">
+				<ofd:AbbreviatedData>M 0.2 0 L 0.2 40.5</ofd:AbbreviatedData>
+			</ofd:PathObject>
+		</ofd:Layer>
+		<ofd:Layer ID="7" DrawParam="4">
+			<ofd:TextObject ID="61" Boundary="163.8 20 13.5 3.5" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.3" DeltaX="2.62 2.62 2.62 2.62">开票状态：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="31" Boundary="163.8 28 13.5 3.5" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.3" DeltaX="2.62 2.62 2.62 2.62">发票号码：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="212" Boundary="70 15 80 5" Font="8" Size="4.7851">
+				<ofd:StrokeColor Value="0 0 0" Alpha="0"/>
+				<ofd:TextCode X="0" Y="4.5" DeltaX="4.7851 4.7851 4.7851 5.7851 4.7851 4.65851 4.7851 4.7851 4.7851 4.7851 4.7851 4.7851 4.7851 4.7851 4.7851 4.7851">电子发票（航空运输电子客票行程单）</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="32" Boundary="16 32.6 12.28 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82 2.82 2.82">旅客姓名</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="33" Boundary="64 32.6 24 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.1" Y="3" DeltaX="2.82 2.82 2.82 2.82 2.82 2.82 2.82">有效身份证件号码</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="34" Boundary="127.3 32.6 6.64 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82">签注</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="35" Boundary="60.02 44.25 9.46 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82 2.82">承运人</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="36" Boundary="73.87 44.25 9.46 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82 2.82">航班号</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="37" Boundary="86.31 44.25 11.48 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.1" Y="3" DeltaX="2.62 2.62 2.62">座位等级</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="38" Boundary="101.98 44.25 6.64 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82">日期</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="39" Boundary="116.68 44.25 6.64 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82">时间</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="40" Boundary="134.7 44.25 25 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.82 2.82 2.82 2.82 1.41 2.82 2.82 2.82">客票级别/客票类别</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="41" Boundary="167.85 44.25 16 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5 2.5 2.5">客票生效日期</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="42" Boundary="184.35 44.25 16 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5 2.5 2.5">有效截止日期</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="43" Boundary="201.21 44.25 11.48 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62">免费行李</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="44" Boundary="15.2 53.5 4 4" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.734" DeltaX="2.5">自：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="44" Boundary="15.2 62 4 4" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.734" DeltaX="2.5">至：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="44" Boundary="15.2 70.5 4 4" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.734" DeltaX="2.5">至：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="44" Boundary="15.2 79 4 4" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.734" DeltaX="2.5">至：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="44" Boundary="15.2 87.5 4 4" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="2.734" DeltaX="2.5">至：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="49" Boundary="58.6 83.6 6 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5">票价</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="50" Boundary="80.6 83.6 13 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5 2.5">燃油附加费</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="53" Boundary="102.6 83.6 13.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5 2.5">增值税税率</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="53" Boundary="118.3 83.6 13.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5 2.5">增值税税额</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="53" Boundary="140.3 83.6 16 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5 2.5 2.5">民航发展基金</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="54" Boundary="162.3 83.6 11 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5 2.5 2.5">其他税费</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="55" Boundary="184.3 83.6 6 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.5">合计</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="56" Boundary="15.5 94.25 18.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62 2.62 2.62">电子客票号码：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="57" Boundary="73.6 94.25 9.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62">验证码：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="58" Boundary="98.6 94.25 12 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62">提示信息：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="59" Boundary="184.3 94.25 9.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62">保险费：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="60" Boundary="15.5 102.75 18.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62 2.62 2.62">销售网点代号：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="61" Boundary="73.6 102.75 12 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62">填开单位：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="64" Boundary="181.1 102.75 12 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62">填开日期：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="66" Boundary="15.5 111.25 17.5 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62 2.62">购买方名称：</ofd:TextCode>
+			</ofd:TextObject>
+			<ofd:TextObject ID="66" Boundary="117.6 111.25 45.8 3.6" Font="5" Size="3.00">
+				<ofd:TextCode X="0.5" Y="3" DeltaX="2.62 2.62 2.62 2.62 2.62 2.62 2.62 2.62 1.31 2.62 2.62 2.62 2.62 2.62 2.62">统一社会信用代码/纳税人识别号：</ofd:TextCode>
+			</ofd:TextObject>
+		</ofd:Layer>
+	</ofd:Content>
+</ofd:Page>

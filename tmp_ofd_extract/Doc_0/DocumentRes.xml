@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ofd:Res BaseLoc="Res" xmlns:ofd="http://www.ofdspec.org/2016">
+    <ofd:MultiMedias>
+        <ofd:MultiMedia ID="5500" Type="Image" Format="JPG">
+            <ofd:MediaFile>image_77.jpg</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="55001" Type="Image" Format="JPG">
+            <ofd:MediaFile>image_77_SHUI.jpg</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5501" Type="Image" Format="PNG">
+            <ofd:MediaFile>jzz.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5502" Type="Image" Format="PNG">
+            <ofd:MediaFile>bg.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5503" Type="Image" Format="PNG">
+            <ofd:MediaFile>fpjzz.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5504" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_guangdong.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5505" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_beijing.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5506" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_neimenggu.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5507" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_shanghai.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5508" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_sichuan.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5509" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_tianjin.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5510" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_hebei.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5511" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_shanxi.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5512" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_liaoning.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5513" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_dalian.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5514" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_jilin.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5515" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_heilongjiang.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5516" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_jiangsu.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5517" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_zhejiang.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5518" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_ningbo.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5519" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_anhui.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5520" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_fujian.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5521" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_xiamen.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5522" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_jiangxi.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5523" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_shandong.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5524" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_qingdao.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5525" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_henan.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5526" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_hubei.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5527" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_hunan.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5528" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_shenzhen.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5529" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_guangxi.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5530" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_hainan.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5531" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_chongqing.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5532" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_guizhou.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5533" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_yunnan.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5534" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_xizang.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5535" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_shanxi2.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5536" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_gansu.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5537" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_qinghai.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5538" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_ningxia.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+        <ofd:MultiMedia ID="5539" Type="Image" Format="PNG">
+            <ofd:MediaFile>signature_xinjiang.png</ofd:MediaFile>
+        </ofd:MultiMedia>
+    </ofd:MultiMedias>
+</ofd:Res>
