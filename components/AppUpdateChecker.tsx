@@ -23,7 +23,11 @@ export function AppUpdateChecker() {
   useEffect(() => {
     if (Platform.OS !== 'android') return;
     checkForUpdate().then(async info => {
-      if (!info) return;
+      if (!info) {
+        // 已是最新版本，清除之前存的待更新信息
+        await AsyncStorage.removeItem(PENDING_UPDATE_KEY);
+        return;
+      }
       // 如果已存为"稍后再说"的版本，弹窗也不再弹（让红点提醒）
       const stored = await AsyncStorage.getItem(PENDING_UPDATE_KEY);
       if (stored) {
