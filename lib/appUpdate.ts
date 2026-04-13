@@ -45,7 +45,7 @@ export async function checkForUpdate(): Promise<AppVersionRow | null> {
     if (!json || json.code === 1247 || json.code !== 0) return null;
 
     const data = json.data;
-    const remoteVersionCode = parseInt(data.buildBuildVersion ?? '0', 10);
+    const remoteVersionCode = parseInt(data.buildVersionNo ?? '0', 10);
 
     if (remoteVersionCode <= localVersionCode) return null;
 
