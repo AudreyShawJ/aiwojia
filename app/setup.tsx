@@ -265,7 +265,6 @@ export default function SetupScreen() {
                       onChangeText={setFamilyName}
                       placeholder="家庭名称，比如：王家"
                       placeholderTextColor={colors.mutedForeground}
-                      autoFocus
                     />
                     {error ? <Text style={styles.error}>{error}</Text> : null}
                     <Pressable
@@ -291,7 +290,6 @@ export default function SetupScreen() {
                       placeholderTextColor={colors.mutedForeground}
                       autoCapitalize="characters"
                       maxLength={6}
-                      autoFocus
                     />
                     {error ? <Text style={styles.error}>{error}</Text> : null}
                     <Pressable
