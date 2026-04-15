@@ -229,7 +229,10 @@ export default function SetupScreen() {
                   <Text style={styles.btnText}>下一步</Text>
                 </Pressable>
                 <Pressable
-                  onPress={() => router.replace('/(tabs)/me')}
+                  onPress={async () => {
+                    await supabase.auth.signOut();
+                    router.replace('/login');
+                  }}
                   style={styles.backBtn}>
                   <Text style={styles.backText}>返回</Text>
                 </Pressable>
