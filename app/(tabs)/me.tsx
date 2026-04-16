@@ -11,7 +11,7 @@ import * as FileSystem from 'expo-file-system/legacy';
 import * as ImagePicker from 'expo-image-picker';
 import * as LocalAuthentication from 'expo-local-authentication';
 import { useFocusEffect, useRouter } from 'expo-router';
-import { Camera, ChevronRight, Copy, FileText, Folder, LogOut, RefreshCw, Users } from 'lucide-react-native';
+import { Camera, ChevronRight, Copy, FileText, Folder, LogOut, RefreshCw, Trash2, Users } from 'lucide-react-native';
 import { useCallback, useState } from 'react';
 import {
   ActivityIndicator,
@@ -173,6 +173,30 @@ export default function MeScreen() {
         }
       },
     ]);
+  };
+
+  const handleDeleteAccount = () => {
+    Alert.alert(
+      '注销账号',
+      '注销后，您的账号及所有家庭数据将被永久删除，无法恢复。确认注销？',
+      [
+        { text: '取消', style: 'cancel' },
+        {
+          text: '确认注销', style: 'destructive', onPress: async () => {
+            try {
+              const { data: { user } } = await supabase.auth.getUser();
+              if (!user) return;
+              // 删除用户数据（依赖 RLS cascade 或触发器清理关联数据）
+              await supabase.from('users').delete().eq('id', user.id);
+              await supabase.auth.signOut();
+              router.replace('/login');
+            } catch {
+              Alert.alert('注销失败', '请稍后再试，或联系 moerdarling@gmail.com');
+            }
+          }
+        },
+      ]
+    );
   };
 
   const handlePickAvatar = async () => {
@@ -356,6 +380,12 @@ export default function MeScreen() {
         <Pressable style={s.logoutBtn} onPress={handleLogout}>
           <LogOut size={18} color={colors.destructive} strokeWidth={1.5} />
           <Text style={s.logoutText}>退出登录</Text>
+        </Pressable>
+
+        {/* 注销账号 */}
+        <Pressable style={[s.logoutBtn, { marginTop: 8 }]} onPress={handleDeleteAccount}>
+          <Trash2 size={18} color={colors.mutedForeground} strokeWidth={1.5} />
+          <Text style={[s.logoutText, { color: colors.mutedForeground }]}>注销账号</Text>
         </Pressable>
 
         <View style={{ height: 32 }} />

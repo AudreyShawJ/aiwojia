@@ -55,6 +55,13 @@
       ],
       "expo-secure-store",
       [
+        "expo-image-picker",
+        {
+          "photosPermission": "允许 $(PRODUCT_NAME) 访问您的相册，以便您上传照片到家庭资料库或设置家庭成员头像。",
+          "cameraPermission": "允许 $(PRODUCT_NAME) 使用相机，以便您拍摄照片并上传到家庭资料库或设置头像。"
+        }
+      ],
+      [
         "expo-local-authentication",
         {
           "faceIDPermission": "验证身份后，才能查看受保护的家庭资料。"
